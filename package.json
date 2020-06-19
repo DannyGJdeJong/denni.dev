@@ -1,17 +1,26 @@
 {
   "name": "denni.dev",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "Source code of denni.dev",
+  "repository": "https://github.com/DannyGJdeJong/denni.dev",
   "author": "DannyGJdeJong <dannygjdejong@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "deploy": "gatsby-plugin-s3 deploy --yes"
+  },
   "devDependencies": {
+    "@types/styled-components": "^5.1.0",
     "gatsby": "^2.23.4",
+    "gatsby-plugin-s3": "^0.3.3",
     "gatsby-plugin-ts-config": "^0.2.3",
     "gatsby-plugin-typescript": "^2.4.6",
     "typescript": "^3.9.5"
   },
   "dependencies": {
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "styled-components": "^5.1.1"
   }
 }
