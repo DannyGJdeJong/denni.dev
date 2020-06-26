@@ -3,6 +3,7 @@ import { GatsbyConfig } from 'gatsby';
 const config: GatsbyConfig = {
   plugins: [
     'gatsby-plugin-typescript',
+    'gatsby-plugin-styled-components',
     {
       resolve: 'gatsby-plugin-s3',
       options: {
