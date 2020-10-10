@@ -46,7 +46,7 @@ const StyledHeader = styled.h1`
 const WelcomeHeader: FunctionComponent = () => (
   <StyledDiv>
     <Center>
-      <StyledImg src={ leaves }></StyledImg>
+      <StyledImg src={leaves}></StyledImg>
       <StyledHeader>Welcome to denni.dev</StyledHeader>
     </Center>
   </StyledDiv>
