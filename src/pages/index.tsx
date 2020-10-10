@@ -1,6 +1,6 @@
 import React, { FunctionComponent } from 'react';
-import WelcomeHeader from '../components/WelcomeHeader';
 import Header from '../components/Header';
+import WelcomeHeader from '../components/WelcomeHeader';
 
 const Home: FunctionComponent = () => (
   <>
